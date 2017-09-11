@@ -1,0 +1,20 @@
+{
+    "name": "typescript-practice",
+    "version": "1.0.0",
+    "description": "My try to learn typescript, just doin' basic stuff",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "tsc -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cubbK/typescript-practice.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cubbK/typescript-practice/issues"
+    },
+    "homepage": "https://github.com/cubbK/typescript-practice#readme"
+}

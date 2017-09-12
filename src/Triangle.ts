@@ -8,6 +8,7 @@ class Triangle extends Figure {
   public perimeter(): number {
     return this.dist1 + this.dist2 + this.dist3
   }
+
   public aria(): number {
     const p = (this.dist1 + this.dist2 + this.dist3) / 2
     const firstDif: number = p - this.dist1

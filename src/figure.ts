@@ -4,7 +4,7 @@ export interface Point {
 }
 
 class Figure {
-  constructor(public points: Point[]) {}
+  constructor(public points: Point[]) { }
 
   protected getDistanceFrom2Points(point1: Point, point2: Point): number {
     const firstPow = Math.pow((point1.x - point2.x), 2)

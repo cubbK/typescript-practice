@@ -1,17 +1,19 @@
-import Figure, {Point} from './figure'
+import { Point } from './Figure'
+import Triangle from './Triangle'
 
 const point1: Point = {
-  x: 12,
-  y: 5
+  x: 5,
+  y: 1
 }
 const point2: Point = {
-  x: 5,
-  y: 4
+  x: 10,
+  y: 1
 }
 const point3: Point = {
-  x: 17,
-  y: 4
+  x: 7,
+  y: 10
 }
 
-let square = new Figure([point1, point2, point3])
-square.perimeter()
+let myTriangle = new Triangle([point1, point2, point3])
+console.log('Triangle aria: ' + myTriangle.aria())
+console.log('Triangle perimeter:', + myTriangle.perimeter())
